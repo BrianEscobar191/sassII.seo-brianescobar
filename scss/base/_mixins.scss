@@ -1,0 +1,13 @@
+@mixin tamanioLetras($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+    
+}
+
+.letraDescripcion{
+    @include tamanioLetras(17px, 400);
+}
+
+.letraTitulos{
+    @include tamanioLetras(45px, 800);
+}

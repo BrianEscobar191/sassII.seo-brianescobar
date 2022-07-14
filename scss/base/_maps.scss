@@ -1,0 +1,21 @@
+$comentarios: (
+    resenias: rgba(0, 0, 0, 0.727),
+    spa: rgba(30, 29, 29, 0.66),
+    origen: rgba(64, 61, 61, 0.593),
+    
+);
+
+.resenias{
+    color: map-get($map: $comentarios, $key:resenias );
+}
+
+.spa{
+    color: map-get($map: $comentarios, $key:spa );
+}
+
+.origen{
+    color: map-get($map: $comentarios, $key:origen );
+}
+
+
+

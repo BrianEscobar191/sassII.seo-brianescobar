@@ -1,0 +1,32 @@
+.tarjetaCondecoraciones{
+     font-family: 'Edu VIC WA NT Beginner', cursive;
+     font-weight: 600;
+     font-size: 30px;
+     text-align: start
+}
+
+
+
+.tarjetaDos{
+    @extend .tarjetaCondecoraciones;
+    text-align: center;
+}
+
+.tarjetaTres{
+    @extend .tarjetaCondecoraciones;
+    text-align: end;
+}
+
+
+
+
+.tarjetaPremio{
+	&Imagen{
+        box-shadow: -19px 9px 44px 1px $color-secundario;
+        -webkit-box-shadow: -19px 9px 44px 1px $color-secundario;
+        -moz-box-shadow: -19px 9px 44px 1px $color-secundario;
+
+	
+    }
+
+}

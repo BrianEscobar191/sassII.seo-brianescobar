@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(255, 253, 253);
+}
+html main {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+footer {
+  background-color: rgb(8, 10, 12);
+  color: aliceblue;
+}
+
+/*------------POLITICAS----------*/
+.seccion-pie {
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  color: black;
+  text-shadow: 90px 27px 9px rgba(0, 0, 0, 0.6);
+  border: 1px solid #1C6EA4;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.letraDescripcion {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.letraTitulos {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.resenias {
+  color: rgba(0, 0, 0, 0.727);
+}
+
+.spa {
+  color: rgba(30, 29, 29, 0.66);
+}
+
+.origen {
+  color: rgba(64, 61, 61, 0.593);
+}
+
+#hero-section {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+#hero-section a {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 600;
+  background-color: rgba(237, 182, 32, 0.526);
+  color: aliceblue;
+  transition: 0.5s;
+}
+#hero-section a:hover {
+  color: orangered;
+  background-color: rgb(255, 255, 255);
+  border: 2px groove black;
+  filter: opacity(50%);
+}
+#hero-section span {
+  color: rgba(233, 207, 136, 0.819);
+}
+
+.tarjetaCondecoraciones, .tarjetaTres, .tarjetaDos {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: start;
+}
+
+.tarjetaDos {
+  text-align: center;
+}
+
+.tarjetaTres {
+  text-align: end;
+}
+
+.tarjetaPremioImagen {
+  box-shadow: -19px 9px 44px 1px rgb(241, 172, 109);
+  -webkit-box-shadow: -19px 9px 44px 1px rgb(241, 172, 109);
+  -moz-box-shadow: -19px 9px 44px 1px rgb(241, 172, 109);
+}
+
+/*# sourceMappingURL=styles.css.map */
